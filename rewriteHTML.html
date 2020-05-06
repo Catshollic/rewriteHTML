@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>入力してボタンを押すとHTML書き換え</title>
+</head>
+<h1>入力してボタンを押すとHTML書き換え</h1>
+<script src="rewriteHTML.js"></script>
+<body>
+    <p>ここに以下に表示したい文を入力してください⇒
+    <input type ="text" value="" id="wantSeeText">
+    <button type ="button" value="" onclick="setText();">反映</button></p>
+    <h2 id = "displayText" text = "" value = "">ここのh2が変換されます</h2>　　　　　　　　　　　        
+    <input type="reset" style="width:10%;padding:5px;font-size:15px;" value="リセットボタン" onclick="reset()">
+</body>
+</html>
